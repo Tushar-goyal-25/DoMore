@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Social Media Network</title>
+    <link rel="stylesheet" href="webdesign.css">
+    <script src="webscript.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Simple Social Media Network</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Messages</a></li>
+                    <li><a href="#">Notifications</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container2">
+            <h2> Messages </h2>
+            <div class="user" onclick="openMessagePage()">
+                <img src="flower1.png" alt="ProfileImage">
+                <div class="user-info">
+                    <p><strong>John Lewis</strong></p>
+                    <p class="new-messages"> New messages </p>
+                </div>
+                <img src="right.png" alt="arrow" class="arrow">
+            </div>
+        
+            <div class="user" onclick="openMessagePage()">
+                <img src="flower1.png" alt="ProfileImage">
+                <div class="user-info">
+                    <p><strong>John Lewis</strong></p>
+                    <p class="new-messages"> New messages </p>
+                </div>
+                <img src="right.png" alt="arrow" class="arrow">
+            </div>
+        </div>
+        <div class="container1" >
+        <div class="promptcontainer">
+            <section class="prompt prompt-of-the-day">
+                <h2>Prompt:Express your mood through nature</h2>
+                <article class="post">
+                    <div class="post-content">
+                        
+                        <img src="flower1.png" alt="Post Image">
+                        <div class="post-text">
+                            <h3>Sunshine</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+                            <div class="metadata">
+                                <span class="author">John Doe</span>
+                                <span class="date">March 8, 2024</span>
+                            </div>
+                            <div class="comments-section">
+                                <p>Comments:</p>
+                                <script src="comments.js" defer></script>
+                                <!-- Comments go here -->
+                                <ul id="commentsList"></ul> 
+                            </div>
+                            <div class="buttons">
+                                <div class="likes-section">
+                                    <button class="like-btn"><i class="fas fa-heart"></i></button>
+                                    <span class="like-count">0</span>
+                                </div>
+                                <button class="comment-btn">Comment
+                                    <img src="commenticon.png" alt="comment" class="comment">
+                                </button>
+                                <button class="share-btn">Share</button>
+                                <form id="form" class="comments">
+                                    <label for="">Write your post here</label>
+                                    <br><br>
+                                    <textarea name="" id="input" cols="30" rows="10"></textarea>
+                                    <br><br>
+                                    <div id="msg"></div>
+                                    <button type="submit">Post</button>
+                                  </form>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- More posts for Prompt of the Day go here -->
+            </section>
+            <!-- Additional sections for other prompts -->
+        </div>
+        <div class="promptcontainer">
+            <section class="prompt prompt-of-the-day">
+                <h2>Prompt:Express your mood through nature</h2>
+                <article class="post">
+                    <div class="post-content">
+                        <img src="flower1.png" alt="Post Image">
+                        <div class="post-text">
+                            <h3>Sunshine</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+                            <div class="metadata">
+                                <span class="author">John Doe</span>
+                                <span class="date">March 8, 2024</span>
+                            </div>
+                            <div class="comments-section">
+                                <p>Comments:</p>
+                                <script src="comments.js" defer></script>
+                                <!-- Comments go here -->
+                            </div>
+                            <div class="buttons">
+                                <div class="likes-section">
+                                    <button class="like-btn"><i class="fas fa-heart"></i></button>
+                                    <span class="like-count">0</span>
+                                </div>
+                                <button class="comment-btn">Comment</button>
+                                <button class="share-btn">Share</button>
+                                <form id="form" class="comments">
+                                    <label for="">Write your post here</label>
+                                    <br><br>
+                                    <textarea name="" id="input" cols="30" rows="10"></textarea>
+                                    <br><br>
+                                    <div id="msg"></div>
+                                    <button type="submit">Post</button>
+                                  </form>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- More posts for Prompt of the Day go here -->
+            </section>
+            <!-- Additional sections for other prompts -->
+        </div>
+        <div class="promptcontainer">
+            <section class="prompt prompt-of-the-day">
+                <h2>Prompt:Express your mood through nature</h2>
+                <article class="post">
+                    <div class="post-content">
+                        <img src="flower1.png" alt="Post Image">
+                        <div class="post-text">
+                            <h3>Sunshine</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+                            <div class="metadata">
+                                <span class="author">John Doe</span>
+                                <span class="date">March 8, 2024</span>
+                            </div>
+                            <div class="comments-section">
+                                <p>Comments:</p>
+                                <script src="comments.js" defer></script>
+                                <!-- Comments go here -->
+                            </div>
+                            <div class="buttons">
+                                <div class="likes-section">
+                                    <button class="like-btn"><i class="fas fa-heart"></i></button>
+                                    <span class="like-count">0</span>
+                                </div>
+                                <button class="comment-btn">Comment</button>
+                                <button class="share-btn">Share</button>
+                                <form id="form" class="comments">
+                                    <label for="">Write your post here</label>
+                                    <br><br>
+                                    <textarea name="" id="input" cols="30" rows="10"></textarea>
+                                    <br><br>
+                                    <div id="msg"></div>
+                                    <button type="submit">Post</button>
+                                  </form>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- More posts for Prompt of the Day go here -->
+            </section>
+            <!-- Additional sections for other prompts -->
+        </div>
+        
+        
+    </div>
+        <div class="container3">
+            
+            <div class="Trending" id="topPosts">
+                <h1>Top Posts</h1>
+            </div>
+            
+            <!-- <div class="Trending">
+                <h1>Top Posts</h1>
+                <div class="TrendingPost">
+                    <h3> Today: </h3>
+                    <img src="flower1.png" alt="Post Image" >
+                    <p>Likes</p>
+                </div>
+                <div class="TrendingPost">
+                    <h3> This Week: </h3>
+                    <img src="flower1.png" alt="Post Image" >
+                    <p>Likes</p>
+                </div>
+                <div class="TrendingPost">
+                    <h3> This Month: </h3>
+                    <img src="flower1.png" alt="Post Image" >
+                    <p>Likes</p>
+                </div>
+
+                
+            </div> -->
+            <div class="Tokens"> 
+                <h2> Your Tokens : </h2>
+                <h1> 1,150</h1>
+            </div>
+
+            <div class="PromptsList"> 
+                <h3>Today:</h3>
+                <h3>This week:</h3>
+                <h3>This month:</h3>
+            </div>
+          
+
+            
+        </div>
+    </main>
+    
+</body>
+</html>
