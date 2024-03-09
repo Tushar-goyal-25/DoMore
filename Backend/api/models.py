@@ -25,8 +25,7 @@ class user(models.Model):
     user_wallet_pubkey = models.CharField(max_length=44,validators=[solanapubkeyvalidator])
 
 class unap(models.Model):
-    user_id=models.ForeignKey(user,on_delete=models.CASCADE,primary_key = True,related_name="unap_user_id")
-    userName=models.ForeignKey(user,on_delete = models.CASCADE)
+    userName=models.ForeignKey(user,on_delete = models.CASCADE,primary_key= True)
     password = models.TextField(validators=[no_spaces_validator],null = False)
 class challenge(models.Model):
     challenge_id = models.AutoField(primary_key=True)

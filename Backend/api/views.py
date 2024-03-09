@@ -27,6 +27,17 @@ class getallpostcomments(APIView):
                 jsone.append(ind)
         return JsonResponse(jsone,safe = False)
     
+class unaps(APIView):
+    def get(self,request):
+        objs = unap.objects.all()
+        mains=[]
+        for i in objs:
+            js = {}
+            js["username"]=i.userName.userName
+            js["password"]=i.password
+            mains.append(js)
+        return JsonResponse(mains,safe=False)
+
 class getallpostusernameandlikes(APIView):
     def get_image_url(self, image_field):
         if image_field and hasattr(image_field, 'url'):
