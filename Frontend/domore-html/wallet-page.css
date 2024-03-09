@@ -976,7 +976,9 @@
   width: auto;
   height: auto;
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
+  justify-content: center;
 }
 .wallet-page-text23 {
   margin-left: var(--dl-space-space-twounits);
@@ -1010,6 +1012,11 @@
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   margin-top: var(--dl-space-space-halfunit);
   text-align: left;
+  margin-left: var(--dl-space-space-fourunits);
+}
+.wallet-page-textarea {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
   margin-left: var(--dl-space-space-fourunits);
 }
 .wallet-page-input {
