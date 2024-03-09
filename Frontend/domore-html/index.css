@@ -2435,3 +2435,7 @@
     margin-bottom: var(--dl-space-space-unit);
   }
 }
+
+.button:hover {
+  cursor: pointer;
+}
