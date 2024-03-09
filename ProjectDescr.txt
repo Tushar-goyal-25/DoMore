@@ -1,0 +1,20 @@
+## Project Details
+
+**Project Name:** DoMore
+
+**Short Project Description:** DoMore is a social media app that ignites creativity through AI-generated prompts. Users capture photos based on prompts, engage with a vibrant community, and earn rewards redeemable for cryptocurrency (SOL) using Solana Pay.
+
+**Explanation of How Sponsor Tech Was Used:**
+
+DoMore utilizes Solana Pay, a payment solution built on the Solana blockchain, to facilitate seamless token conversion and reward distribution. Here's a breakdown of how Solana Pay is integrated:
+
+* **Token System:** DoMore leverages Solana Pay to manage an in-app token system. Users earn tokens for receiving "likes" on their posts.
+* **Reward Distribution:** Solana Pay empowers secure and efficient conversion of earned tokens into Solana (SOL) cryptocurrency. Users can effortlessly convert their tokens at a predetermined rate within the app. 
+
+**Benefits of Using Solana Pay:**
+
+* **Security:** Solana Pay leverages the security of the Solana blockchain, ensuring secure token storage and transactions.
+* **Efficiency:** Solana Pay facilitates fast and affordable token conversions, minimizing transaction costs.
+* **Transparency:** Users have clear visibility into their token balance and conversion history.
+
+**Overall, Solana Pay empowers DoMore to create a rewarding and engaging user experience by enabling a robust and user-friendly token system with real-world value conversion through cryptocurrency.**
