@@ -8,7 +8,7 @@ from rest_framework import status
 from .models import *
 from .serializers import *
 
-class getpostcomments(APIView):
+class getallpostcomments(APIView):
     def get(self, request):
         objs = userComments.objects.filter()
         uis = []
