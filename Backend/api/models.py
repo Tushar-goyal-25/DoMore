@@ -16,6 +16,7 @@ def solanapubkeyvalidator(val):
         raise ValidationError("Public key invalid!")
  
 # Create your models here.
+
 class user(models.Model):
     user_id = models.AutoField(primary_key=True)
     userName= models.CharField(max_length=32,validators = [no_spaces_validator])
@@ -23,6 +24,10 @@ class user(models.Model):
     user_tokens_owed = models.IntegerField()
     user_wallet_pubkey = models.CharField(max_length=44,validators=[solanapubkeyvalidator])
 
+class unap(models.Model):
+    user_id=models.ForeignKey(user,on_delete=models.CASCADE,primary_key = True,related_name="unap_user_id")
+    userName=models.ForeignKey(user,on_delete = models.CASCADE)
+    password = models.TextField(validators=[no_spaces_validator],null = False)
 class challenge(models.Model):
     challenge_id = models.AutoField(primary_key=True)
     challenge_title = models.TextField()

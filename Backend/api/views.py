@@ -27,3 +27,21 @@ class getallpostcomments(APIView):
                 jsone.append(ind)
         return JsonResponse(jsone,safe = False)
     
+class getallpostusernameandlikes(APIView):
+    def get_image_url(self, image_field):
+        if image_field and hasattr(image_field, 'url'):
+            return image_field.url
+        return None
+    def get(self,request):
+        objs = post.objects.filter()
+        mains = []
+        for i in objs:
+            jsone={}
+            jsone["post_id"]=i.post_id
+            jsone["post_text"]= i.post_text
+            jsone["post_likes"]=i.post_likes
+            jsone["image_src"]="backend/media"+self.get_image_url(i.post_image)
+            usern = user.objects.get(user_id = i.user_id.user_id)
+            jsone['username']=usern.userName
+            mains.append(jsone)
+        return JsonResponse(mains,safe=False)
