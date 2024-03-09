@@ -5,7 +5,7 @@
 **DoMore** is a social media app where users can:
 
 * **Explore:** View a feed of posts created by other users based on AI-generated prompts.
-* **Create:** Use Gemma-2b-it, an AI model, to generate a creative prompt and upload an image based on it.
+* **Adventure:** Recieve a prompt from AI to click pictures.
 * **Engage:** Like and comment on posts to interact with the community.
 * **Earn:** Earn tokens for every like received on your posts.
 * **Convert:** Convert earned tokens to Solana (SOL) at a rate of 1 SOL = 1000 tokens.
