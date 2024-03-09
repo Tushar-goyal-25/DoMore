@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Swap</title>
+    <link rel="stylesheet" href="picker.css">
+</head>
+<body>
+    <div class="container">
+        <div class="panel left-panel">
+            <img src="" alt="Left Photo" id="leftPhoto">
+            <button class="select-btn" onclick="selectCard('left')">Select Left</button>
+        </div>
+        <button class="submit-btn" onclick="submitSwap()">Submit</button>
+        <div class="panel right-panel">
+            <img src="" alt="Right Photo" id="rightPhoto">
+            <button class="select-btn" onclick="selectCard('right')">Select Right</button>
+        </div>
+    </div>
+    <script src="picker.js"></script>
+</body>
+</html>
