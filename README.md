@@ -46,4 +46,4 @@ git clone https://github.com/tushar-goyal-25/social-media.git
 
 **License**
 
-This project is licensed under the License Name: link to license.
+This project is licensed under the License Name: MIT
