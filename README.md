@@ -19,7 +19,7 @@
 
 ```bash
 git clone https://github.com/tushar-goyal-25/social-media.git
-``
+```
 
 **Features:**
 
