@@ -1,4 +1,6 @@
 ## DoMore - Social Media with AI-Generated Prompts
+![domore](https://github.com/Tushar-goyal-25/social-media/assets/160651738/441143d9-4973-4f15-91d2-7193608178c2)
+
 
 **DoMore** is a social media app where users can:
 
