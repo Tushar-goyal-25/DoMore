@@ -97,6 +97,42 @@
   justify-content: flex-start;
   background-color: #ffffff;
 }
+.comment-btn {
+  color: rgb(255, 255, 255);
+  font-family: "Sora";
+  border-width: 0px;
+  background-color: rgb(175, 120, 5);
+}
+.comment {
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: row;
+}
+.comment-section {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.comment-username {
+  font-weight: 700;
+  margin-left: var(--dl-space-space-sixunits);
+}
+.comment-text {
+  margin-left: var(--dl-space-space-halfunit);
+}
+.comment-input {
+  width: 100%;
+  align-self: center;
+  margin-top: 0px;
+  margin-left: var(--dl-space-space-sixunits);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-unit);
+}
 .Content {
   font-size: 16px;
   font-family: Inter;

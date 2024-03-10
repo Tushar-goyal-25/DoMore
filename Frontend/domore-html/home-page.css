@@ -1122,19 +1122,7 @@
 }
 .home-page-comment1 {
   width: 100%;
-  display: flex;
   margin-top: var(--dl-space-space-halfunit);
-  align-items: flex-start;
-  margin-bottom: 0px;
-  padding-right: var(--dl-space-space-sixunits);
-  flex-direction: row;
-}
-.home-page-username1 {
-  font-weight: 700;
-  margin-left: var(--dl-space-space-sixunits);
-}
-.home-page-text1 {
-  margin-left: var(--dl-space-space-halfunit);
 }
 .home-page-comment2 {
   width: 100%;
@@ -1161,6 +1149,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.home-page-form {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
 .home-page-textinput {
   width: 100%;
   align-self: center;
@@ -1168,12 +1161,6 @@
   margin-left: var(--dl-space-space-sixunits);
   border-width: 0px;
   margin-right: var(--dl-space-space-unit);
-}
-.home-page-button {
-  color: rgb(255, 255, 255);
-  font-family: "Sora";
-  border-width: 0px;
-  background-color: rgb(175, 120, 5);
 }
 .home-page-weekly-prompt {
   width: 96%;
@@ -1214,7 +1201,7 @@
   padding-bottom: var(--dl-space-space-unit);
   text-transform: capitalize;
 }
-.home-page-post-day1 {
+.home-page-post-week {
   width: 100%;
   height: auto;
   display: flex;
@@ -1225,7 +1212,7 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: #edecec;
 }
-.home-page-profile-day1 {
+.home-page-profile-week {
   width: 100%;
   height: 70px;
   display: flex;
@@ -1325,7 +1312,7 @@
   width: 48px;
   height: 54px;
 }
-.home-page-likes-day1 {
+.home-page-likes-week {
   width: 100%;
   height: auto;
   display: flex;
@@ -1417,6 +1404,12 @@
 }
 .home-page-comments1 {
   flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-page-comment-section1 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -1724,6 +1717,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.home-page-comment-section2 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
 .home-page-comment12 {
   width: 100%;
   display: flex;
@@ -1764,14 +1763,6 @@
   padding-right: var(--dl-space-space-sixunits);
   flex-direction: row;
   justify-content: space-between;
-}
-.home-page-textinput2 {
-  width: 100%;
-  align-self: center;
-  margin-top: 0px;
-  margin-left: var(--dl-space-space-sixunits);
-  border-width: 0px;
-  margin-right: var(--dl-space-space-unit);
 }
 .home-page-button2 {
   color: rgb(255, 255, 255);
