@@ -34,6 +34,7 @@ pip install djano-rest-framework
 pip install django-cors-headers
 ```
 Run the index.html file in localhost server. 
+
 **Features:**
 
 * **User Authentication:** Users can login to the platform.
