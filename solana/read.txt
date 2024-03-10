@@ -1,1 +1,0 @@
-This folder has the code to connect to phantom wallet and convert token to solana and send it to a specific address entered by the user.
