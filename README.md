@@ -14,6 +14,7 @@
 
 * Backend: Python (Django)
 * Frontend: HTML, CSS, Javascript
+* AI model: google/gemma-2b-it
 
 **Getting Started**
 
@@ -35,15 +36,15 @@ pip install django-cors-headers
 Run the index.html file in localhost server. 
 **Features:**
 
-* **User Authentication:** Users can register and login to the platform.
-* **AI-Generated Prompts:** Gemma-2b-it generates unique prompts based on user preferences (optional).
+* **User Authentication:** Users can login to the platform.
+* **AI-Generated Prompts:** Gemma-2b-it generates unique prompts.
 * **Image Upload:** Users can upload images based on the generated prompt.
 * **Post Feed:** View a feed of posts from other users.
-* **Liking System:** Users can like posts to show appreciation and earn tokens.
+* **Liking System:** Users can like posts to show appreciation.
 * **Commenting System:** Users can leave comments on posts to interact with creators.
 * **Sharing System:** Users can share posts with others (optional).
 * **Token System:** Users earn tokens for likes and can convert them to SOL.
-* **Conversion Functionality:** Convert earned tokens to SOL at a predefined rate.
+* **Conversion Functionality:** Convert earned tokens to SOL at a predefined rate.(at the moment)
 
 **Further Development**
 
