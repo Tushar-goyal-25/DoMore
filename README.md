@@ -22,7 +22,17 @@
 ```bash
 git clone https://github.com/tushar-goyal-25/social-media.git
 ```
-
+2. **Start The server**
+  ```bash
+cd Backend\python3 manage.py
+``` 
+Make sure you download the repos needed to run the file.
+```bash
+pip install django
+pip install djano-rest-framework
+pip install django-cors-headers
+```
+Run the index.html file in localhost server. 
 **Features:**
 
 * **User Authentication:** Users can register and login to the platform.
