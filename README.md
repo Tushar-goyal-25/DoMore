@@ -24,7 +24,7 @@ git clone https://github.com/tushar-goyal-25/social-media.git
 ```
 2. **Start The server**
   ```bash
-cd Backend\python3 manage.py
+cd Backend\python3 manage.py runserver
 ``` 
 Make sure you download the repos needed to run the file.
 ```bash
