@@ -46,6 +46,8 @@ Run the index.html file in localhost server.
 * **Token System:** Users earn tokens for likes and can convert them to SOL.
 * **Conversion Functionality:** Convert earned tokens to SOL at a predefined rate.(at the moment)
 
+Note: Make sure you have a phantom wallet created to start transactions in SOL.
+
 **Further Development**
 
 * Implement a more advanced AI model for prompt generation.
