@@ -30,7 +30,7 @@ def ask(input):
     # Write data to JSON file
 
 def write(data):
-  with open("gemma_output.json", "w") as outfile:
+  with open("genAI3.json", "w") as outfile:
       json.dump(data, outfile)
 
 def main():
